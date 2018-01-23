@@ -1,0 +1,22 @@
+{
+  "name": "cafam-beacon-project",
+  "version": "1.0.0",
+  "description": "CAFAM Beacon Project",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexEBall/CAFAM-Beacon-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexEBall/CAFAM-Beacon-Project/issues"
+  },
+  "homepage": "https://github.com/AlexEBall/CAFAM-Beacon-Project#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}

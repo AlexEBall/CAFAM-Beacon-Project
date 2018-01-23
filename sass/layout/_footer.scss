@@ -1,0 +1,55 @@
+.footer {
+    margin-bottom: 2rem;
+
+    &__social {
+        float: right;
+    }
+
+    &__links {
+        margin-bottom: .6rem
+    }
+
+    &__legal {
+        color: #666;
+        font-size: 1.2rem;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+div.container div.footer div.social ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;    
+}
+div.container div.footer div.social ul li
+{
+    float: left;
+    margin-right: 20px;
+}
+div.container div.footer div.social ul li a
+{
+    color: #fc0;
+    font-weight: bold;
+}
+
+
+div.container div.footer div.links ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;    
+}
+div.container div.footer div.links ul li
+{
+    float: left;
+    margin-right: 20px;
+}
+div.container div.footer div.links ul li a
+{
+    color: #fc0;
+    font-weight: bold;
+}
