@@ -28,11 +28,11 @@
 
 		&:hover {
 			// similar to border but outline can have an offset
-			outline: 1.5rem solid $color-primary;
-			transform: scale(1.05) translateY(-.5rem);
+			// outline: 1.5rem solid $color-primary;
+			// transform: scale(1.05) translateY(-.5rem);
 			// if we hover box shadow should be closer and darker
-			box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
-			z-index: 20;
+			// box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
+			// z-index: 20;
 		}
 
 	}
