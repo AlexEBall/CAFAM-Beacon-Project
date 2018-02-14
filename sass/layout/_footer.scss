@@ -3,10 +3,42 @@
 
     &__social {
         float: right;
+
+        &--ul {
+           margin: 0px;
+           padding: 0px;
+           list-style-type: none;
+        }
+
+        &--li {
+           float: left;
+           margin-right: 20px;
+        }
+
+        &--li-a {
+            color: #fc0;
+            font-weight: bold;
+        }
     }
 
     &__links {
-        margin-bottom: .6rem
+        margin-bottom: .6rem;
+
+        &--ul {
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+        }
+
+        &--li {
+            float: left;
+            margin-right: 20px;
+        }
+
+        &--li-a {
+            color: #fc0;
+            font-weight: bold;
+        }
     }
 
     &__legal {
@@ -19,37 +51,3 @@
     clear: both;
 }
 
-div.container div.footer div.social ul
-{
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;    
-}
-div.container div.footer div.social ul li
-{
-    float: left;
-    margin-right: 20px;
-}
-div.container div.footer div.social ul li a
-{
-    color: #fc0;
-    font-weight: bold;
-}
-
-
-div.container div.footer div.links ul
-{
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;    
-}
-div.container div.footer div.links ul li
-{
-    float: left;
-    margin-right: 20px;
-}
-div.container div.footer div.links ul li a
-{
-    color: #fc0;
-    font-weight: bold;
-}

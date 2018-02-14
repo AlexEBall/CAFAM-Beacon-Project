@@ -16,9 +16,16 @@ html {
 
 body {
 	box-sizing: border-box;
-	/*font-family: "Lato", sans-serif;*/
 	font-weight: 400;
-	/*font-size: 16px;*/
 	line-height: 1.7;
 	color: #777;
 }
+
+a {
+	text-decoration: none;
+	color: #944E8E;
+}
+
+// .container {
+// 	margin-bottom: .6rem;
+// }
