@@ -54,10 +54,6 @@ a {
   text-decoration: none;
   color: #944E8E; }
 
-.push {
-  margin: 30rem 0;
-  content: ""; }
-
 body {
   font-weight: 400;
   line-height: 1.7;
@@ -65,6 +61,10 @@ body {
 
 .menu__ul--li-a {
   font-size: 1.4rem; }
+
+.heading-secondary {
+  color: #66CCCC;
+  font-size: 2rem; }
 
 .heading-tertiary {
   font-size: 1.6rem;
@@ -143,15 +143,15 @@ body {
 
 .btn-text:link, .btn-text:visited {
   font-size: 1.6rem;
-  color: #2A628F;
+  color: #f4a93f;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 0.1rem solid #2A628F;
+  border-bottom: 0.1rem solid #f4a93f;
   padding: 0.3rem;
   transition: all .2s; }
 
 .btn-text:hover {
-  background-color: #2A628F;
+  background-color: #f4a93f;
   color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12);
   transform: translateY(-0.2rem); }
@@ -159,6 +159,47 @@ body {
 .btn-text:active {
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.12);
   transform: translateY(0); }
+
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 52rem; }
+  .card__side {
+    color: #fff;
+    height: 44rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: .3rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    .card__side--front {
+      background-color: #fff; }
+  .card__picture {
+    background-size: cover;
+    height: 22rem;
+    background-blend-mode: color;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
+    .card__picture--1 {
+      background-image: url(../images/bartender2_500x500.png);
+      background-position-y: -15rem; }
+  .card__details {
+    padding: 2rem; }
+    .card__details ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto;
+      color: #000; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid #777; }
 
 .composition {
   position: relative; }
@@ -289,6 +330,18 @@ body {
   top: 18px;
   left: 18px; }
 
+.events {
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+
+.push1 {
+  margin: 3rem 0;
+  content: ""; }
+
 .promotion {
   margin-top: 10rem;
   margin-bottom: 15rem; }
+
+.push {
+  margin: 30rem 0;
+  content: ""; }

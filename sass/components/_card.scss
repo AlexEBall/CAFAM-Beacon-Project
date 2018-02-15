@@ -1,0 +1,65 @@
+.card {
+    // FUNCTIONALITY
+    // perspective has to be made on the parent
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 52rem;
+
+    &__side {
+        color: $color-white;
+        // font-size: 2rem;
+        height: 44rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-radius: .3rem; 
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+        &--front {
+            background-color: $color-white;
+        }
+    }
+    
+    // FRONT SIDE STYLING
+    &__picture {
+        background-size: cover;
+        height: 22rem; 
+        background-blend-mode: color;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+
+        &--1 {
+            background-image: url(../images/bartender2_500x500.png);
+            background-position-y: -15rem;
+        }
+    }
+
+     &__details {
+        padding: 2rem;
+
+        ul {
+            list-style: none;
+            width: 80%;
+            margin: 0 auto;
+            color: $color-black;
+
+            li {
+                text-align: center;
+                font-size: 1.5rem;
+                padding: 1rem;
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid $color-grey-dark;
+                }
+
+            }
+
+        }
+
+     }
+
+}
