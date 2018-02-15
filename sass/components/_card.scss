@@ -4,7 +4,7 @@
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
-    height: 52rem;
+    height: 40rem;
 
     &__side {
         color: $color-white;
@@ -35,6 +35,15 @@
         &--1 {
             background-image: url(../images/bartender2_500x500.png);
             background-position-y: -15rem;
+        }
+
+        &--2 {
+            background-image: url(../images/wayne.jpg);
+            background-position-y: -14rem;
+        }
+
+        &--3 {
+            background-image: url(../images/wayne.jpg);
         }
     }
 
