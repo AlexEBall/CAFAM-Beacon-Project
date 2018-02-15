@@ -63,6 +63,9 @@ body {
   line-height: 1.7;
   color: #777; }
 
+.menu__ul--li-a {
+  font-size: 1.4rem; }
+
 .heading-tertiary {
   font-size: 1.6rem;
   font-weight: 700;
@@ -208,7 +211,6 @@ body {
       text-decoration: none;
       text-transform: uppercase;
       line-height: 33px;
-      font-weight: bold;
       color: White; }
     .menu__ul--li-a:hover {
       background-color: #ace3d2; }
@@ -237,8 +239,7 @@ body {
       float: left;
       margin-right: 20px; }
     .footer__links--li-a {
-      color: #fc0;
-      font-weight: bold; }
+      color: #fc0; }
   .footer__legal {
     color: #666;
     font-size: 1.2rem; }
