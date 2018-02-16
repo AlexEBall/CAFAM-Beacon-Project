@@ -42,17 +42,26 @@ html {
 	we change to 10 because of easy math. 1 rem = 10px also 
 	comment out the body's 16px font size, setting to 100% makes
 	it = to root 16px, but then / 10 for our 10px*/
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  height: 100%; }
 
 body {
   box-sizing: border-box;
   font-weight: 400;
   line-height: 1.7;
-  color: #777; }
+  color: #777;
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
 
 a {
   text-decoration: none;
   color: #944E8E; }
+
+.container {
+  position: relative;
+  margin: 0px auto;
+  flex: 1 0 auto; }
 
 body {
   font-weight: 400;
@@ -93,6 +102,9 @@ body {
 
 .u-margin-top-small {
   margin-top: 1.5rem; }
+
+.u-margin-top-huge {
+  margin-top: 14rem; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -299,7 +311,9 @@ body {
       background-color: #ace3d2; }
 
 .footer {
-  margin-bottom: 2rem; }
+  margin-bottom: 1rem;
+  flex-shrink: 0;
+  padding: 0 2rem; }
   .footer__social {
     float: right; }
     .footer__social--ul {
@@ -334,7 +348,7 @@ body {
   max-width: 114rem;
   margin: 0 auto; }
   .row:not(:last-child) {
-    margin-bottom: 8rem; }
+    margin-bottom: 6rem; }
   .row::after {
     content: "";
     display: table;
@@ -358,11 +372,6 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
-.container {
-  position: relative;
-  width: 800px;
-  margin: 0px auto; }
-
 .header {
   position: relative;
   background-color: #ffa610;
@@ -378,22 +387,34 @@ body {
   margin-top: 5rem;
   margin-bottom: 5rem; }
 
-.push1 {
-  margin: 10rem 0;
-  content: ""; }
-
 .promotion {
   margin-top: 10rem;
-  margin-bottom: 15rem; }
+  margin-bottom: 15rem;
+  padding: 0 3rem; }
 
-.push {
-  margin: 30rem 0;
-  content: ""; }
+.bio {
+  position: relative; }
+  .bio__shape {
+    float: left;
+    width: 50rem;
+    height: 50rem;
+    shape-outside: url(../images/ceramic.png);
+    shape-margin: 1.5rem;
+    shape-image-threshold: 0.5;
+    background: url(../images/gopi-shah-oakland-studio.jpg);
+    background-position-x: -55rem;
+    background-position-y: -13rem;
+    -webkit-mask-image: url(../images/ceramic.png); }
+  .bio__name {
+    position: absolute;
+    top: 5rem;
+    left: 17rem;
+    color: #66CCCC;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 3; }
 
 .shop {
   margin-top: 5rem;
   margin-bottom: 10rem; }
-
-.push2 {
-  margin: 25rem 0;
-  content: ""; }

@@ -1,5 +1,7 @@
 .footer {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+    padding: 0 2rem;
 
     &__social {
         float: right;

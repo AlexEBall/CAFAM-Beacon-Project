@@ -1,8 +1,33 @@
 .promotion {
 	margin-top: 10rem;
 	margin-bottom: 15rem;
+	padding: 0 3rem;
 }
-.push {
-	margin: 30rem 0;
-	content: "";
+
+.bio {
+	position: relative;
+
+	&__shape {
+		float: left;
+		width: 50rem;
+		height: 50rem;
+		shape-outside: url(../images/ceramic.png);
+		shape-margin: 1.5rem;
+		shape-image-threshold: 0.5;
+		background: url(../images/gopi-shah-oakland-studio.jpg);
+		background-position-x: -55rem;
+		background-position-y: -13rem;
+		-webkit-mask-image: url(../images/ceramic.png);
+	}
+
+	&__name {
+		position: absolute;
+		top: 5rem;
+		left: 17rem;
+		color: $color-heading;
+		font-size: 4rem;
+		text-transform: uppercase;
+		text-align: center;
+		z-index: 3;
+	}
 }
