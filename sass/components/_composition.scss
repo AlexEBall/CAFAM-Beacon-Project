@@ -28,31 +28,31 @@
 
 		&--p4 {
 			left: 80%;
-			top: 0;
+			top: -16rem;
 			width: 35%;
 		}
 
 		&--p5 {
 			left: 60%;
-			top: 1rem;
+			top: -9rem;
 			width: 35%;
 		}
 
 		&--p6 {
 			left: 40%;
-			top: 2rem;
+			top: -4rem;
 			width: 35%;
 		}
 
 		&--p7 {
 			left: 20%;
-			top: 3rem;
+			top: -1rem;
 			width: 35%;
 		}
 
 		&--p8 {
 			left: 0;
-			top: 4rem;
+			top: -6rem;
 			width: 35%;
 		}
 
@@ -60,6 +60,29 @@
 
 	&:hover &__photo:not(:hover) {
 		transform: scale(.95);
+	}
+
+	&__shopPhoto {
+		width: 35%;
+		box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+		border-radius: .2rem;
+		position: absolute;
+		z-index: 10;
+		outline-offset: 2rem;
+
+		&--p1 {
+			left: 0;
+			top: -10rem;
+		}
+		&--p2 {
+			left: 23%;
+			top: 2rem;
+		}
+		&--p3 {
+			left: 54%;
+			top: -4rem;
+		}
+
 	}
 
 }
