@@ -26,6 +26,36 @@
 			top: 10rem;
 		}
 
+		&--p4 {
+			left: 80%;
+			top: 0;
+			width: 35%;
+		}
+
+		&--p5 {
+			left: 60%;
+			top: 1rem;
+			width: 35%;
+		}
+
+		&--p6 {
+			left: 40%;
+			top: 2rem;
+			width: 35%;
+		}
+
+		&--p7 {
+			left: 20%;
+			top: 3rem;
+			width: 35%;
+		}
+
+		&--p8 {
+			left: 0;
+			top: 4rem;
+			width: 35%;
+		}
+
 	}
 
 	&:hover &__photo:not(:hover) {

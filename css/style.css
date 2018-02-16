@@ -223,6 +223,26 @@ body {
     .composition__photo--p3 {
       left: 20%;
       top: 10rem; }
+    .composition__photo--p4 {
+      left: 80%;
+      top: 0;
+      width: 35%; }
+    .composition__photo--p5 {
+      left: 60%;
+      top: 1rem;
+      width: 35%; }
+    .composition__photo--p6 {
+      left: 40%;
+      top: 2rem;
+      width: 35%; }
+    .composition__photo--p7 {
+      left: 20%;
+      top: 3rem;
+      width: 35%; }
+    .composition__photo--p8 {
+      left: 0;
+      top: 4rem;
+      width: 35%; }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
@@ -306,6 +326,8 @@ body {
       margin-right: 6rem; }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
+  .row .col-2-of-2 {
+    width: calc((100% - 6rem)); }
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3); }
   .row .col-2-of-3 {
@@ -347,4 +369,12 @@ body {
 
 .push {
   margin: 30rem 0;
+  content: ""; }
+
+.shop {
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+
+.push2 {
+  margin: 20rem 0;
   content: ""; }
