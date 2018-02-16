@@ -8,7 +8,7 @@
 
     &__side {
         color: $color-white;
-        // font-size: 2rem;
+        font-size: 2rem;
         height: 44rem;
         position: absolute;
         top: 0;
@@ -43,12 +43,12 @@
         }
 
         &--3 {
-            background-image: url(../images/wayne.jpg);
+            background-image: url(../images/terraiums.jpeg);
         }
     }
 
      &__details {
-        padding: 2rem;
+        // padding: 2rem;
 
         ul {
             list-style: none;
@@ -58,7 +58,7 @@
 
             li {
                 text-align: center;
-                font-size: 1.5rem;
+                // font-size: 1.7rem;
                 padding: 1rem;
 
                 &:not(:last-child) {

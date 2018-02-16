@@ -167,6 +167,7 @@ body {
   height: 40rem; }
   .card__side {
     color: #fff;
+    font-size: 2rem;
     height: 44rem;
     position: absolute;
     top: 0;
@@ -191,20 +192,17 @@ body {
       background-image: url(../images/wayne.jpg);
       background-position-y: -14rem; }
     .card__picture--3 {
-      background-image: url(../images/wayne.jpg); }
-  .card__details {
-    padding: 2rem; }
-    .card__details ul {
-      list-style: none;
-      width: 80%;
-      margin: 0 auto;
-      color: #000; }
-      .card__details ul li {
-        text-align: center;
-        font-size: 1.5rem;
-        padding: 1rem; }
-        .card__details ul li:not(:last-child) {
-          border-bottom: 1px solid #777; }
+      background-image: url(../images/terraiums.jpeg); }
+  .card__details ul {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    color: #000; }
+    .card__details ul li {
+      text-align: center;
+      padding: 1rem; }
+      .card__details ul li:not(:last-child) {
+        border-bottom: 1px solid #777; }
 
 .composition {
   position: relative; }
@@ -340,7 +338,7 @@ body {
   margin-bottom: 5rem; }
 
 .push1 {
-  margin: 3rem 0;
+  margin: 10rem 0;
   content: ""; }
 
 .promotion {
