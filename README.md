@@ -1,6 +1,6 @@
 # CAFAM-Beacon-Project
 
-Working with the wonderful pepole in The Craft and Folk Art Museum was a great experience. My team provisioned some Estimote Beacons and placed them around the musuem to test the power of the physical web. 
+Working with the wonderful pepole in [The Craft and Folk Art Museum](http://www.cafam.org/) was a great experience. My team provisioned some [Estimote](https://estimote.com/) Beacons and placed them around the musuem to test the power of the physical web. 
 
 ### Requirements 
 
@@ -33,6 +33,6 @@ Here, we wanted to let customers know about all the wonderful perks that come wi
 + Sass
 
 ## The Team
-+ Alex Edward Ball
-+ Mariam Joan
-+ Sascha Schnieder
++ [Alex Edward Ball](https://github.com/AlexEBall)
++ [Mariam Joan](https://github.com/MJOAN)
++ [Sascha Schnieder](https://github.com/saschaschneider)
