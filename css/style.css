@@ -185,6 +185,10 @@ body {
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.12);
   transform: translateY(0); }
 
+.btn-join:link, .btn-join:visited {
+  margin-left: 45%;
+  font-size: 4rem; }
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
