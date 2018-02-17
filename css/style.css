@@ -140,7 +140,7 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
     .card__picture--1 {
-      background-image: url(../images/Bartender2_500x500.png);
+      background-image: url(../images/bartender2_500x500.png);
       background-position-y: -15rem; }
     .card__picture--2 {
       background-image: url(../images/wayne.jpg);
