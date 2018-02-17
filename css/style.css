@@ -34,6 +34,12 @@ a {
     display: table;
     clear: both; }
 
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/28A4A6_0_0.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   font-weight: 400;
   line-height: 1.7;
