@@ -2,7 +2,7 @@
 	position: relative;
 
 	&__shopPhoto {
-		width: 35%;
+		width: 40%;
 		box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
 		border-radius: .8rem;
 		position: absolute;
@@ -11,15 +11,15 @@
 
 		&--p1 {
 			left: 2%;
-			top: -6rem;
+			top: -4rem;
 		}
 		&--p2 {
-			left: 23%;
-			top: 18rem;
+			left: 2%;
+			top: 15rem;
 		}
 		&--p3 {
-			left: 60%;
-			top: 8rem;
+			left: 40%;
+			top: 5rem;
 		}
 
 	}
