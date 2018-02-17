@@ -8,6 +8,14 @@ body {
 	font-size: 1.4rem;
 }
 
+.heading-huge {
+	color: $color-white;
+	text-shadow: .2rem 1rem 2rem $color-black;
+	font-size: 4rem;
+	text-transform: uppercase;
+	letter-spacing: 1.2rem;
+}
+
 .heading-secondary {
 	color: $color-heading;
 	font-size: 2rem;

@@ -74,6 +74,13 @@ body {
 .menu__ul--li-a {
   font-size: 1.4rem; }
 
+.heading-huge {
+  color: #fff;
+  text-shadow: 0.2rem 1rem 2rem #000;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2rem; }
+
 .heading-secondary {
   color: #66CCCC;
   font-size: 2rem; }
@@ -393,8 +400,33 @@ body {
   margin-top: 5rem;
   margin-bottom: 10rem;
   padding: 0 2rem; }
-
-.membership {
-  background-color: #fff;
-  margin-top: 10rem;
-  margin-bottom: 2rem; }
+  .shop__workshop {
+    margin-top: 5rem;
+    padding: 30rem 0;
+    background-image: linear-gradient(to right bottom, rgba(244, 169, 63, 0.3), rgba(240, 132, 51, 0.3)), url(../images/second3.jpg);
+    background-size: cover;
+    transform: skewY(-7deg); }
+    .shop__workshop > * {
+      transform: skewY(7deg); }
+  .shop__store {
+    padding: 30rem 0;
+    background-image: linear-gradient(to right bottom, rgba(244, 169, 63, 0.3), rgba(240, 132, 51, 0.3)), url(../images/second4.jpg);
+    background-size: cover;
+    transform: skewY(-7deg); }
+    .shop__store > * {
+      transform: skewY(7deg); }
+  .shop__events {
+    padding: 30rem 0;
+    background-image: linear-gradient(to right bottom, rgba(244, 169, 63, 0.3), rgba(240, 132, 51, 0.3)), url(../images/second2.jpg);
+    background-size: cover;
+    transform: skewY(-7deg); }
+    .shop__events > * {
+      transform: skewY(7deg); }
+  .shop__members {
+    padding: 30rem 0;
+    background-image: linear-gradient(to right bottom, rgba(244, 169, 63, 0.3), rgba(240, 132, 51, 0.3)), url(../images/second1.jpg);
+    background-size: cover;
+    transform: skewY(-7deg);
+    margin-bottom: 8rem; }
+    .shop__members > * {
+      transform: skewY(7deg); }

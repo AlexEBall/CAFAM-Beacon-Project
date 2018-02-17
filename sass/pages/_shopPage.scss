@@ -2,10 +2,58 @@
     margin-top: 5rem;
     margin-bottom: 10rem;
     padding: 0 2rem;
-}
 
-.membership {
-    background-color: $color-white;
-    margin-top: 10rem;
-    margin-bottom: 2rem;
+    &__workshop {
+        margin-top: 5rem;
+        padding: 30rem 0;
+        background-image: linear-gradient( to right bottom, rgba($color-primary, 0.3), rgba($color-primary-dark, 0.3)),
+        url(../images/second3.jpg);
+        background-size: cover;
+        transform: skewY(-7deg);
+
+        &>* {
+            // oposite of above
+            transform: skewY(7deg);
+        }
+    }
+
+    &__store {
+        padding: 30rem 0;
+        background-image: linear-gradient( to right bottom, rgba($color-primary, 0.3), rgba($color-primary-dark, 0.3)),
+        url(../images/second4.jpg);
+        background-size: cover;
+        transform: skewY(-7deg);
+
+        &>* {
+            // oposite of above
+            transform: skewY(7deg);
+        }
+    }
+
+    &__events {
+        padding: 30rem 0;
+        background-image: linear-gradient( to right bottom, rgba($color-primary, 0.3), rgba($color-primary-dark, 0.3)),
+        url(../images/second2.jpg);
+        background-size: cover;
+        transform: skewY(-7deg);
+
+        &>* {
+            // oposite of above
+            transform: skewY(7deg);
+        }
+    }
+
+    &__members {
+        padding: 30rem 0;
+        background-image: linear-gradient( to right bottom, rgba($color-primary, 0.3), rgba($color-primary-dark, 0.3)),
+        url(../images/second1.jpg);
+        background-size: cover;
+        transform: skewY(-7deg);
+        margin-bottom: 8rem;
+
+        &>* {
+            // oposite of above
+            transform: skewY(7deg);
+        }
+    }
 }
