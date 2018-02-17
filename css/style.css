@@ -233,6 +233,8 @@ body {
   .footer__legal {
     color: #666;
     font-size: 1.2rem; }
+    .footer__legal-small {
+      font-size: .45rem !important; }
 
 .clear {
   clear: both; }
