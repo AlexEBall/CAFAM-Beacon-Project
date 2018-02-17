@@ -3,6 +3,17 @@
     background-color: #ffa610;
     height: 144px;
     margin-bottom: 6px;
+
+    &__heading {
+        color: $color-white;
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 4.2rem;
+        text-transform: uppercase;
+        margin: 0 auto;
+        margin-left: 10%;
+        padding-top: 5rem;
+    }
 }
 
 .logo {

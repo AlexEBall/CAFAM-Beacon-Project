@@ -60,8 +60,11 @@ a {
 
 .container {
   position: relative;
-  margin: 0px auto;
   flex: 1 0 auto; }
+  .container::after {
+    content: "";
+    display: table;
+    clear: both; }
 
 body {
   font-weight: 400;
@@ -104,7 +107,7 @@ body {
   margin-top: 1.5rem; }
 
 .u-margin-top-huge {
-  margin-top: 14rem; }
+  margin-top: 16rem; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -221,61 +224,22 @@ body {
 
 .composition {
   position: relative; }
-  .composition__photo {
-    width: 55%;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-    border-radius: .2rem;
-    position: absolute;
-    z-index: 10;
-    transition: all .2s;
-    outline-offset: 2rem; }
-    .composition__photo--p1 {
-      left: 0;
-      top: -2rem; }
-    .composition__photo--p2 {
-      right: 0;
-      top: 2rem; }
-    .composition__photo--p3 {
-      left: 20%;
-      top: 10rem; }
-    .composition__photo--p4 {
-      left: 80%;
-      top: -16rem;
-      width: 35%; }
-    .composition__photo--p5 {
-      left: 60%;
-      top: -9rem;
-      width: 35%; }
-    .composition__photo--p6 {
-      left: 40%;
-      top: -4rem;
-      width: 35%; }
-    .composition__photo--p7 {
-      left: 20%;
-      top: -1rem;
-      width: 35%; }
-    .composition__photo--p8 {
-      left: 0;
-      top: -6rem;
-      width: 35%; }
-  .composition:hover .composition__photo:not(:hover) {
-    transform: scale(0.95); }
   .composition__shopPhoto {
     width: 35%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-    border-radius: .2rem;
+    border-radius: .8rem;
     position: absolute;
     z-index: 10;
     outline-offset: 2rem; }
     .composition__shopPhoto--p1 {
-      left: 0;
-      top: -10rem; }
+      left: 2%;
+      top: -6rem; }
     .composition__shopPhoto--p2 {
       left: 23%;
-      top: 2rem; }
+      top: 18rem; }
     .composition__shopPhoto--p3 {
-      left: 54%;
-      top: -4rem; }
+      left: 60%;
+      top: 8rem; }
 
 .menu {
   margin-bottom: 6px; }
@@ -377,6 +341,15 @@ body {
   background-color: #ffa610;
   height: 144px;
   margin-bottom: 6px; }
+  .header__heading {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 4.2rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-left: 10%;
+    padding-top: 5rem; }
 
 .logo {
   position: absolute;
@@ -385,11 +358,12 @@ body {
 
 .events {
   margin-top: 5rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 10rem;
+  padding: 0 6rem; }
 
 .promotion {
-  margin-top: 10rem;
-  margin-bottom: 15rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   padding: 0 3rem; }
 
 .bio {
@@ -417,4 +391,5 @@ body {
 
 .shop {
   margin-top: 5rem;
-  margin-bottom: 10rem; }
+  margin-bottom: 10rem;
+  padding: 0 2rem; }
