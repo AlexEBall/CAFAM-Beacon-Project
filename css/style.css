@@ -308,15 +308,15 @@ body {
   position: relative; }
   .bio__shape {
     float: left;
-    width: 50rem;
-    height: 50rem;
-    shape-outside: url(../images/ceramic.png);
-    shape-margin: 1.5rem;
+    width: 60rem;
+    height: 45rem;
+    shape-outside: url(../images/cocktail.png);
+    shape-margin: 3.5rem;
     shape-image-threshold: 0.5;
     background: url(../images/gopi-shah-oakland-studio.jpg);
     background-position-x: -55rem;
     background-position-y: -13rem;
-    -webkit-mask-image: url(../images/ceramic.png); }
+    -webkit-mask-image: url(../images/cocktail.png); }
   .bio__name {
     position: absolute;
     top: 5rem;
@@ -326,6 +326,16 @@ body {
     text-transform: uppercase;
     text-align: center;
     z-index: 3; }
+
+.drink-box {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.7) 28%, transparent 40%), url(../images/drinks.jpg);
+  background-size: cover;
+  border-radius: .3rem;
+  box-shadow: 1rem 0.5rem 2rem rgba(0, 0, 0, 0.5);
+  height: 48rem; }
+  .drink-box__content {
+    width: 25%;
+    padding: 2rem 3rem; }
 
 .shop {
   margin-top: 5rem;
