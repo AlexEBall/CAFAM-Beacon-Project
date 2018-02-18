@@ -1,5 +1,5 @@
 .promotion {
-	margin-top: 6rem;
+	margin-top: 2rem;
 	margin-bottom: 6rem;
 	padding: 0 3rem;
 }
@@ -8,27 +8,30 @@
 	position: relative;
 
 	&__shape {
+		display: block;
+		margin-top: 6rem;
 		float: left;
 		width: 60rem;
 		height: 45rem;
 		shape-outside: url(../images/cocktail.png);
 		shape-margin: 3.5rem;
 		shape-image-threshold: 0.5;
-		background: url(../images/gopi-shah-oakland-studio.jpg);
-		background-position-x: -55rem;
-		background-position-y: -13rem;
+		background: url(../images/bartender2.png);
+		background-position-x: -62rem;
+		background-position-y: 0;
 		-webkit-mask-image: url(../images/cocktail.png);
 	}
 
 	&__name {
-		position: absolute;
-		top: 5rem;
-		left: 17rem;
+		// position: absolute;
+		top: -5rem;
+		left: 0;
 		color: $color-heading;
-		font-size: 4rem;
+		font-size: 2.8rem;
 		text-transform: uppercase;
 		text-align: center;
 		z-index: 3;
+		width: 90%;
 	}
 }
 
@@ -41,7 +44,7 @@
 	height: 48rem;
 
 	&__content {
-		width: 25%;
+		width: 28%;
 		padding: 2rem 3rem;
 	}
 }

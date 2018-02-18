@@ -37,6 +37,11 @@ body {
 
 .paragraph {
 	font-size: $default-font-size;
+
+	&__drink-box {
+		text-shadow: 0.1rem 0.1rem #030;
+		letter-spacing: .1rem;
+	}
 	
 	&:not(:last-child) {
 		margin-bottom: 3rem;

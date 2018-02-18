@@ -67,6 +67,9 @@ body {
 
 .paragraph {
   font-size: 1.6rem; }
+  .paragraph__drink-box {
+    text-shadow: 0.1rem 0.1rem #030;
+    letter-spacing: .1rem; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
 
@@ -286,8 +289,9 @@ body {
     line-height: 4.2rem;
     text-transform: uppercase;
     margin: 0 auto;
-    margin-left: 10%;
-    padding-top: 5rem; }
+    margin-left: 23%;
+    padding-top: 5rem;
+    width: 75%; }
 
 .logo {
   position: absolute;
@@ -300,32 +304,34 @@ body {
   padding: 0 6rem; }
 
 .promotion {
-  margin-top: 6rem;
+  margin-top: 2rem;
   margin-bottom: 6rem;
   padding: 0 3rem; }
 
 .bio {
   position: relative; }
   .bio__shape {
+    display: block;
+    margin-top: 6rem;
     float: left;
     width: 60rem;
     height: 45rem;
     shape-outside: url(../images/cocktail.png);
     shape-margin: 3.5rem;
     shape-image-threshold: 0.5;
-    background: url(../images/gopi-shah-oakland-studio.jpg);
-    background-position-x: -55rem;
-    background-position-y: -13rem;
+    background: url(../images/bartender2.png);
+    background-position-x: -62rem;
+    background-position-y: 0;
     -webkit-mask-image: url(../images/cocktail.png); }
   .bio__name {
-    position: absolute;
-    top: 5rem;
-    left: 17rem;
+    top: -5rem;
+    left: 0;
     color: #66CCCC;
-    font-size: 4rem;
+    font-size: 2.8rem;
     text-transform: uppercase;
     text-align: center;
-    z-index: 3; }
+    z-index: 3;
+    width: 90%; }
 
 .drink-box {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.7) 28%, transparent 40%), url(../images/drinks.jpg);
@@ -334,7 +340,7 @@ body {
   box-shadow: 1rem 0.5rem 2rem rgba(0, 0, 0, 0.5);
   height: 48rem; }
   .drink-box__content {
-    width: 25%;
+    width: 28%;
     padding: 2rem 3rem; }
 
 .shop {
