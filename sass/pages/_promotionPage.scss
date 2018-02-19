@@ -8,8 +8,6 @@
 	position: relative;
 
 	&__shape {
-		display: block;
-		margin-top: 6rem;
 		float: left;
 		width: 60rem;
 		height: 45rem;
@@ -36,7 +34,7 @@
 }
 
 .drink-box {
-	background-image: linear-gradient(105deg, rgba($color-white, .6) 0%, rgba($color-white, .7) 28%, transparent 40%),
+	background-image: linear-gradient(105deg, rgba($color-white, .6) 0%, rgba($color-white, .7) 28%, transparent 65%),
 	url(../images/drinks.jpg);
 	background-size: cover;
 	border-radius: .3rem;
@@ -44,7 +42,7 @@
 	height: 48rem;
 
 	&__content {
-		width: 28%;
+		width: 50%;
 		padding: 2rem 3rem;
 	}
 }
