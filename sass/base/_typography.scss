@@ -26,7 +26,7 @@ body {
 
 .heading-secondary {
 	color: $color-heading;
-	font-size: 2rem;
+	font-size: 3rem;
 }
 
 .heading-tertiary {
@@ -37,6 +37,15 @@ body {
 
 .paragraph {
 	font-size: $default-font-size;
+
+	&__drink-box {
+		text-shadow: 0.1rem 0.1rem #030;
+		letter-spacing: .1rem;
+	}
+
+	&__card {
+		font-size: 2.5rem;
+	}
 	
 	&:not(:last-child) {
 		margin-bottom: 3rem;
