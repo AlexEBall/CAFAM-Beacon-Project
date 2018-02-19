@@ -1,6 +1,6 @@
 # CAFAM-Beacon-Project
 
-Working with the wonderful pepole in [The Craft and Folk Art Museum](http://www.cafam.org/) was a great experience. My team provisioned some [Estimote](https://estimote.com/) Beacons and placed them around the musuem to test the power of the physical web. 
+Working with the wonderful pepole at [The Craft and Folk Art Museum](http://www.cafam.org/) was a great experience. My team provisioned some [Estimote](https://estimote.com/) Beacons and placed them around the musuem to test the power of the physical web. 
 
 ### Requirements 
 
