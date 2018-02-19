@@ -11,13 +11,13 @@
 		float: left;
 		width: 60rem;
 		height: 45rem;
-		shape-outside: url(../images/cocktail.png);
+		shape-outside: url(../images/cocktails.png);
 		shape-margin: 3.5rem;
 		shape-image-threshold: 0.5;
 		background: url(../images/bartender2.png);
 		background-position-x: -62rem;
 		background-position-y: 0;
-		-webkit-mask-image: url(../images/cocktail.png);
+		-webkit-mask-image: url(../images/cocktails.png);
 	}
 
 	&__name {
