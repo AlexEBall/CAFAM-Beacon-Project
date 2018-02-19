@@ -69,8 +69,12 @@ body {
   font-size: 1.6rem; }
   .paragraph__drink-box {
     text-shadow: 0.1rem 0.1rem #030;
-    letter-spacing: .1rem; }
+    letter-spacing: .1rem;
+    font-size: 4rem; }
   .paragraph__card {
+    font-size: 2.5rem; }
+  .paragraph__bioPromo {
+    padding-top: 4rem;
     font-size: 2.5rem; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
@@ -118,6 +122,12 @@ body {
 .btn-join:link, .btn-join:visited {
   margin-left: 45%;
   font-size: 4rem; }
+
+.btn-signup:link,
+.btn-signup:visited {
+  margin-left: 4%;
+  font-size: 3.5rem;
+  text-shadow: 0.1rem 0.1rem #030; }
 
 .card {
   perspective: 150rem;
@@ -312,8 +322,6 @@ body {
 .bio {
   position: relative; }
   .bio__shape {
-    display: block;
-    margin-top: 6rem;
     float: left;
     width: 60rem;
     height: 45rem;
@@ -335,13 +343,13 @@ body {
     width: 90%; }
 
 .drink-box {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.7) 28%, transparent 40%), url(../images/drinks.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.7) 28%, transparent 65%), url(../images/drinks.jpg);
   background-size: cover;
   border-radius: .3rem;
   box-shadow: 1rem 0.5rem 2rem rgba(0, 0, 0, 0.5);
   height: 48rem; }
   .drink-box__content {
-    width: 28%;
+    width: 50%;
     padding: 2rem 3rem; }
 
 .shop {
