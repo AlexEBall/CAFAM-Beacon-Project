@@ -8,7 +8,7 @@
 
     &__side {
         color: $color-white;
-        font-size: 2rem;
+        font-size: 1.8rem;
         height: 44rem;
         position: absolute;
         top: 0;
@@ -33,17 +33,17 @@
         clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 
         &--1 {
-            background-image: url(../images/bartender2.png);
-            background-position-y: -15rem;
+            background-image: url(../images/wayne.jpg);
+            background-position-y: -8rem;
         }
 
         &--2 {
-            background-image: url(../images/wayne.jpg);
-            background-position-y: -14rem;
+            background-image: url(../images/terraiums.jpeg);
+            // background-position-y: -14rem;
         }
 
         &--3 {
-            background-image: url(../images/terraiums.jpeg);
+            background-image: url(../images/clay.jpeg);
         }
     }
 
