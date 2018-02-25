@@ -24,6 +24,13 @@ body {
 	letter-spacing: 1.2rem;
 }
 
+.heading-main {
+	color: $color-heading;
+	font-size: 4.5rem;
+	text-shadow: 0 .1rem $color-black;
+	text-align: center;
+}
+
 .heading-secondary {
 	color: $color-heading;
 	font-size: 3rem;
@@ -42,6 +49,7 @@ body {
 		text-shadow: 0.1rem 0.1rem #030;
 		letter-spacing: .1rem;
 		font-size: 4rem;
+		color: $color-heading;
 	}
 
 	&__card {
