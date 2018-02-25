@@ -31,6 +31,7 @@
 .btn-signup:link,
 .btn-signup:visited {
 	margin-left: 4%;
-	font-size: 3.5rem;
-	text-shadow: 0.1rem 0.1rem #030;
+	font-size: 4.5rem;
+	text-shadow: 0 0.2rem $color-black;
+	box-shadow: 0 0.4rem 0.2rem -0.2rem $color-black;
 }
