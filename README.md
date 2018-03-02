@@ -13,19 +13,19 @@ In order for the BLE technology to transmit from the beacons to phones, one need
 
 One beacon was placed near the enterance of the museum and was pushing a flyer url from the hours of 11am to 5pm, letting people know about the event later that night. 
 
---- first picture ---
+<img src="https://user-images.githubusercontent.com/29084524/36880732-2072fe92-1d7f-11e8-8d47-68087e7036e7.png" width="425"/>
 
 ### First Floor
 
 On the first floor of the musuem, people will get a push about other events the museum had to offer that month 
 
---- second picture ---
+<img src="https://user-images.githubusercontent.com/29084524/36880738-2479d24a-1d7f-11e8-90dc-7807792cb4d4.png" width="425"/>
 
 ### Second Floor
 
 Here, we wanted to let customers know about all the wonderful perks that come with being a CAFAM member
 
---- third picture ---
+<img src="https://user-images.githubusercontent.com/29084524/36880823-93df6f50-1d7f-11e8-9163-bf02a6c3b11f.png" width="425"/>
 
 ## Built With
 + HTML5
